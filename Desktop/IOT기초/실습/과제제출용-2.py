@@ -165,7 +165,7 @@ def analyze_stats(total_msgs, received_data):
 def main():
     global args
     args = parse_args()
-    args.seconds = 30  # 10분 고정
+    args.seconds = 600  # 10분 고정
     t = topics(args.fleet, args.drone_id)
 
     # Publisher
